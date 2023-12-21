@@ -1,0 +1,35 @@
+{
+  "name": "mqtt-server",
+  "version": "0.1.0",
+  "description": "Simple API to build your own MQTT server on top of it.",
+  "main": "index.js",
+  "contributors": [
+    "Joël Gähwiler <joel.gaehwiler@gmail.com> (https://github.com/256dpi)",
+    "Matteo Collina <matteo.collina@gmail.com> (https://github.com/mcollina)"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive --reporter list"
+  },
+  "keywords": [
+    "mqtt",
+    "publish/subscribe",
+    "publish",
+    "subscribe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com/mqttjs/mqtt-server"
+  },
+  "bugs": {
+    "url": "https://github.com/mqttjs/mqtt-server/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "create-stream-server": "0.1.1",
+    "mqtt-connection": "2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "2.1.0",
+    "mqtt": "1.0.5"
+  }
+}
